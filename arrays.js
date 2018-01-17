@@ -8,5 +8,6 @@ function destructivelyAddElementToBeginningOfArray(array, n){
 
 function addElementToBeginningOfArray(array, n){
   var array
+  array=[n, ...array]
   return array
 }
